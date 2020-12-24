@@ -76,3 +76,4 @@ public class RhymersJUnitTest {
 	}
 
 }
+//Kombinacja klawiszy alt + -> oraz alt + <- powoduje zmiany kart
