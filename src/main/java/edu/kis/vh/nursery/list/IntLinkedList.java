@@ -19,22 +19,22 @@ public class IntLinkedList {
 		return last == null;
 	}
 
-	public boolean isFull() {
-		return false;
-	}
+//	public boolean isFull() {
+//		return false;
+//	}
 
-	public int top() {
-		if (isEmpty())
-			return -1;
-		return last.value;
-	}
+//	public int top() {
+//		if (isEmpty())
+//			return -1;
+//		return last.value;
+//	}
 
-	public int pop() {
-		if (isEmpty())
-			return -1;
-		int ret = last.value;
-		last = last.prev;
-		return ret;
-	}
+//	public int pop() {
+//		if (isEmpty())
+//			return -1;
+//		int ret = last.value;
+//		last = last.prev;
+//		return ret;
+//	}
 
 }
